@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+       Grupo Braslar
+    </title>
+    <link rel="icon" type="image/x-icon" href="content/icone.png">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-icons.css">
+
+    <style>
+        header{
+            padding: 20px;
+        }
+        body{
+            background-color: rgb(34, 37, 41);
+        }
+        section{
+            background-color: #fff;
+            padding: 20px;
+        }
+        a.linkimg{
+            text-decoration: none;
+            color:#fff;
+            margin-left: 10px;
+        }
+        i{
+            padding: 5px;
+        }
+     
+    </style>
+</head>
+
+<body>
+<header>
+    <img src="imagens/logos2023/branco.png" alt="Braslar Refrigeração" style="width:300px">
+</header>
+<section style="min-height: 500px;">
+    <div class="p-2">
+    <a href="https://www.instagram.com/braslareletros/" class="linkimg"><img src="content/instagram.png" alt="Braslar Refrigeração" style="width:150px"></a>
+    <a href="https://www.facebook.com/braslareletros" class="linkimg"><img src="content/facebook.png" alt="Braslar Refrigeração" style="width:150px"></a>
+    <a href="https://www.braslareletros.com.br" class="linkimg">
+    <img src="imagens/logos2023/colorido.png" alt="Braslar Refrigeração" style="width:300px">
+    </a>
+    </div>
+      <!-- 
+        começa o carrousel
+     -->
+     <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel"  style="width:400px; margin:0 auto ;height:400px" >
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="1000">
+            <img src="fotos/01.jpg" style="width:400px"  class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="fotos/02.jpg" style="width:400px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="fotos/03.jpg" style="width:400px"  class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="fotos/04.jpg"  style="width:400px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="fotos/05.jpg"  style="width:400px" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="fotos/06.jpg"  style="width:400px" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+     <!-- 
+        termina aqui
+      -->
+
+</section>
+<footer class="text-bg-dark">
+<div class="container">
+    <div class="row m-1 p1">
+        <div class="col m-1 p-1">
+         <p><i class="bi bi-telephone-fill"></i> Telefone (42) 3220-5650        </p>
+         <p><a href="https://api.whatsapp.com/send?phone=554232205661&text=Fale%20Conosco" class="linkimg"><i class="bi bi-whatsapp"></i> WhatsApp (42) 3220-5661       </a> </p>
+         <p><a href="https://www.instagram.com/braslareletros/" class="linkimg"><i class="bi bi-instagram"></i> Instagram       </a> </p>
+         <p><i class="bi bi-mailbox"></i> email: comercial2@fogoesbraslar.com.br    </p>
+        </div>
+        <div class="col m-1 p-1">
+            <p><a href="https://braslareletros.com.br/" class="linkimg"><i class="bi bi-cloud"></i>Visite nosso site</a></p>
+            <p><a href="https://www.facebook.com/braslareletros" class="linkimg"><i class="bi bi-facebook"></i> Visite nosso Facebook   </a>    </p>
+            <p><a href="https://api.whatsapp.com/send?phone=554232205661&text=Fale%20Conosco" class="linkimg"><i class="bi bi-whatsapp"></i>Fale conosco agora no WhatsApp</a> </p>
+          
+        </div>
+    </div>
+</div>
+
+</footer>
+<script src="bootstrap/js/bootstrap.js"></script>
+<script src="bootstrap/js/bootstrap.bundle.js"></script>
+<script src="bootstrap/js/popper.min.js"></script>
+
+
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+  return new bootstrap.Tooltip(tooltipTriggerEl)
+})
+    </script>
+</body>
+
+</html>
